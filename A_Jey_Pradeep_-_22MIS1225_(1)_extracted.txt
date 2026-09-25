@@ -1,0 +1,241 @@
+--- PAGE 1 ---
+ASPECT–GLOBAL EVALUATIVE DISSONANCE IN ONLINE
+PRODUCT REVIEWS: A TEMPORAL ANALYSIS OF CONSUMER
+EXPERIENCE AND PRIOR REVIEW ENVIRONMENTS
+A Jey Pradeep - 22MIS1225 Dr. PANDIYARAJU V - 52344
+
+
+--- PAGE 2 ---
+1.To examine how consumers’ evaluations of individual product aspects
+influence their overall/global evaluation of the product.
+2.To investigate how the prior online review environment shapes consumers’
+interpretation of their current aspect-level experiences.
+3.To examine whether and how the prior review environment moderates the
+relationship between current aspect-level evaluations and consumers’
+global product evaluations, particularly when there is a mismatch between
+prior reviews and current experience.
+Objectives 
+
+
+--- PAGE 3 ---
+
+
+--- PAGE 4 ---
+
+
+--- PAGE 5 ---
+Integrates previously separate streams of online-review research by showing how the
+prior review environment, current aspect-level evaluation, and global product evaluation
+operate together rather than as independent processes.
+Reframes the role of prior reviews from simply influencing consumer opinions to
+potentially changing how consumers translate their own product experiences into overall
+judgments.
+Explains why similar aspect-level experiences can produce different overall evaluations by
+introducing the mismatch between the prior review environment and the current
+experience as a mechanism shaping global evaluation.
+Impact on current understanding
+
+
+--- PAGE 6 ---
+S. No.
+Author(s), Year
+Method / Approach
+Key Contribution
+Gap Identified
+1
+Divya Gupta, Aman Shukla, Tarun Maini (2026) [1]
+Suggests a hybrid machine
+learning model combining textual
+TF-IDF features (word-level and
+character-level) with sentiment-
+based and behavioral meta-
+features (e.g., rating-sentiment
+gap, review length), trained on a
+Proposes a lightweight hybrid
+model that achieves 92% cross-
+dataset accuracy, demonstrating
+superior generalization compared
+to traditional word-level text-only
+models, which drop from 99% in-
+dataset accuracy to near-random
+Most current e-commerce fake
+review detection models are
+evaluated on a single dataset,
+leaving the challenge of cross-
+dataset generalization
+(robustness to shifts in
+vocabulary, writing styles, and
+2
+Unknown (PMC Source, Inaccessible) [1221]
+Inaccessible (Platform Scraping
+Redirection Block) [1221].
+This source from JD.com was
+unable to be read due to platform
+scraping restrictions (reCAPTCHA
+redirection screen on PMC)
+[1221].
+Inaccessible [1221].
+3
+Dezhi Yin, Triparna de Vreede, Logan M. Steele,
+Gert-Jan de Vreede (2023) [34, 35]
+Develops a cognitive dissonance
+theory-grounded framework
+evaluated through two laboratory
+experiments manipulating "cross-
+review incoherence" (attribute-
+level disagreement among
+reviewers) and "context
+Introduces and conceptualizes
+"cross-review incoherence"
+(direct attribute-level
+contradiction between
+reviewers), demonstrating that its
+presence increases cognitive
+dissonance, which lowers the
+Online review research
+predominantly focuses on the
+product level (rating dispersion
+and sales) or individual review
+level (two-sidedness and
+helpfulness), overlooking the
+intermediate level of a "review
+4
+Rahul Aralikatte, Giriprasad Sridhara,
+Neelamadhav Gantayat, Senthil Mani (2018) [91,
+97]
+Conducts a quantitative manual
+annotation of 8,600 reviews from
+10 popular Android apps to
+establish a benchmark dataset;
+and trains traditional machine
+learning (e.g., J48, Naive Bayes,
+SMO) and a Dependency-based
+Demonstrates that review-rating
+mismatches are prevalent
+(around 20% on average, ranging
+from 16% to 26% across different
+apps), and developed a DCNN
+model that achieves 92% cross-
+validation accuracy (84% in the
+Most online review research
+assumes that rating scores and
+text feedback are perfectly
+consistent, while previous mobile
+app review research focuses on
+mining bugs and feature requests
+rather than addressing the
+
+
+--- PAGE 7 ---
+5
+Bernd Heinrich, Alexander Schiller, Lucas
+Weinfurtner (2025) [149]
+Conducts an empirical analysis of
+8 extensive real-world datasets
+from Amazon, IMDb, and Yelp
+comprising over 60 million ratings
+spanning at least 13 years, using
+linear regression models and
+statistical tests (e.g. Mann-
+Whitney U test) [151, 158, 159,
+Proves that an item's initial
+average star rating (first 20
+reviews) strongly influences its
+long-term average rating (ORDER
+> 50), with ratings remaining
+statistically stable for 77-85% of
+items, indicating a persisting
+bandwagon effect [160, 186, 187,
+Prior research on bandwagon and
+differentiation effects focuses
+heavily on the immediate next
+user's rating or short-term rating
+dynamics (e.g., the very first
+review), leaving the long-term
+impact of initial star ratings on
+subsequent rating evolution
+6
+He Wang, Yueheng Wang, Ziyu Zhou, Hanxiang Liu
+(2026) [246]
+Applies a Dual-process Theory
+framework tested through three
+controlled behavioral
+experiments (manipulating
+evaluation sequence on visual
+dining evaluation interfaces) and
+secondary data analysis of 7.7
+million reviews from Yelp and
+Uncovers a significant
+polarization effect: the "Rating-
+First, Review-Later" sequence
+leads to significantly higher
+overall ratings in high-quality
+contexts but significantly lower
+overall ratings in low-quality
+contexts [246, 260]. It identifies a
+Online review research typically
+views ratings and reviews as
+exogenous cues on the consumer-
+side or explains generator-side
+distributions through user
+participation choice and self-
+selection biases, leaving the
+impact of platform interface
+7
+Dahlia Shehata, Ming Li (2026) [302]
+Conducts a quantitative
+evaluation of multi-agent
+consensus trajectories using the
+"Agentic Formalism Trap"
+framework and the "Evaluative
+Dissonance Index" ($D_E$) across
+22,500 trajectories from three
+benchmarks (GAIA, SWE-bench,
+Defines the "Agentic Formalism
+Trap" and $D_E$, proving that
+LLM evaluators are conditionally
+independent of semantic truth
+and are conditionally captured by
+syntactic structures (e.g.,
+consensus mimicry, formatting)
+under social load [305, 307, 308].
+While prior research identified
+simple heuristic biases in LLM-as-
+a-Judge (e.g., verbosity or self-
+enhancement), the mechanistic
+failure of evaluators when parsing
+highly structured, adversarial
+logic under social load remains
+formally undefined and
+8
+Shida Ni, Basak Denizci Guillet, Yixing Gao, Rob
+Law, Baiqing Sun (2025) [345, 346]
+Uses a theoretical framework
+based on Optimum Stimulation
+Level (OSL) theory tested via OLS
+regressions, Propensity Score
+Matching (PSM), and ordinal
+logistic models on a large-scale
+secondary dataset of 651,665
+restaurant reviews from
+First study to document a
+positive rating bias associated
+with variety-seeking choices
+(nonlocal cuisine) due to the
+hedonic utility from reducing
+boredom and maximizing
+enjoyment [347, 364]. It also
+demonstrates that this variety-
+Prior online review research
+focuses heavily on biases at the
+review-authoring stage, ignoring
+how consumer motivations during
+the decision-making stage (like
+VSB) influence subsequent
+evaluation ratings; also, VSB
+research has historically been
+
+
+--- PAGE 8 ---
+
+
