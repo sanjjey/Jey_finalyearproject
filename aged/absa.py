@@ -50,23 +50,50 @@ class AspectSentimentAnalyzer:
             "sturdy": 2.3,
             "premium": 2.7,
             "gorgeous": 2.6,
+            "stunning": 2.8,
+            "vibrant": 2.5,
+            "sharp": 2.3,
+            "durable": 2.4,
+            "reliable": 2.5,
+            "solid": 2.2,
+            "responsive": 2.4,
+            "bargain": 2.4,
             "lag": -2.5,
             "laggy": -2.8,
+            "lags": -2.5,
+            "sluggish": -2.6,
+            "slow": -2.0,
             "throttle": -2.0,
             "throttling": -2.2,
             "drain": -2.2,
+            "drains": -2.2,
+            "drained": -2.2,
             "draining": -2.5,
+            "dies": -2.5,
+            "died": -2.8,
             "overheating": -3.0,
+            "overheats": -2.8,
             "bloatware": -2.4,
             "stutter": -2.0,
+            "stutters": -2.0,
             "subpar": -2.4,
             "flimsy": -2.6,
             "buggy": -2.7,
             "glitch": -2.2,
+            "glitches": -2.3,
             "glitchy": -2.5,
             "horrific": -2.8,
             "appalling": -2.8,
-            "blurry": -2.0
+            "blurry": -2.2,
+            "grainy": -2.0,
+            "scratches": -2.0,
+            "scratched": -2.0,
+            "overpriced": -2.5,
+            "disappointing": -2.4,
+            "disappointed": -2.4,
+            "useless": -2.9,
+            "defect": -2.6,
+            "defective": -2.8
         }
         self.vader.lexicon.update(domain_updates)
 
@@ -111,9 +138,22 @@ class AspectSentimentAnalyzer:
 
         # Review-level focal aspect sentiment (None if aspect not mentioned)
         focal_aspect_scores = {}
+        good_aspects = []
+        bad_aspects = []
+        goods_count = 0
+        bads_count = 0
+
         for asp, scores in aspect_scores_accumulator.items():
             if len(scores) > 0:
-                focal_aspect_scores[asp] = float(np.mean(scores))
+                mean_asp_score = float(np.mean(scores))
+                focal_aspect_scores[asp] = mean_asp_score
+                # Classify aspect polarity as good (> 0.05) or bad (< -0.05)
+                if mean_asp_score >= 0.05:
+                    good_aspects.append(asp)
+                    goods_count += len([s for s in scores if s >= 0.05])
+                elif mean_asp_score <= -0.05:
+                    bad_aspects.append(asp)
+                    bads_count += len([s for s in scores if s <= -0.05])
             else:
                 focal_aspect_scores[asp] = None
 
@@ -124,18 +164,32 @@ class AspectSentimentAnalyzer:
         mentioned_scores = [v for v in focal_aspect_scores.values() if v is not None]
         mean_aspect_sentiment = float(np.mean(mentioned_scores)) if mentioned_scores else overall_text_sentiment
 
+        total_valence_mentions = goods_count + bads_count
+        valence_ratio = float(goods_count / total_valence_mentions) if total_valence_mentions > 0 else 0.5
+        net_aspect_balance = goods_count - bads_count
+        good_bad_pattern = f"{len(good_aspects)} Goods, {len(bad_aspects)} Bads"
+
         return {
             "sentence_evaluations": sentence_evaluations,
             "focal_aspect_scores": focal_aspect_scores,
             "overall_text_sentiment": overall_text_sentiment,
             "mean_aspect_sentiment": mean_aspect_sentiment,
-            "aspects_mentioned_count": len(mentioned_scores)
+            "aspects_mentioned_count": len(mentioned_scores),
+            "goods_count": goods_count,
+            "bads_count": bads_count,
+            "num_good_aspects": len(good_aspects),
+            "num_bad_aspects": len(bad_aspects),
+            "good_aspects": good_aspects,
+            "bad_aspects": bad_aspects,
+            "net_aspect_balance": net_aspect_balance,
+            "aspect_valence_ratio": valence_ratio,
+            "good_bad_pattern": good_bad_pattern
         }
 
     def process_dataframe(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         Applies ABSA to entire DataFrame.
-        Adds focal aspect sentiment columns for each aspect in taxonomy.
+        Adds focal aspect sentiment columns for each aspect in taxonomy and good/bad counts.
         """
         out_df = df.copy()
 
@@ -145,6 +199,15 @@ class AspectSentimentAnalyzer:
         mean_aspect_sentiments = []
         mentioned_counts = []
         sentence_evals_list = []
+        goods_counts = []
+        bads_counts = []
+        num_good_aspects_list = []
+        num_bad_aspects_list = []
+        good_aspects_str_list = []
+        bad_aspects_str_list = []
+        net_balances = []
+        valence_ratios = []
+        patterns = []
 
         for _, row in out_df.iterrows():
             res = self.analyze_review(row["sentences"], row["text"])
@@ -153,14 +216,55 @@ class AspectSentimentAnalyzer:
             mean_aspect_sentiments.append(res["mean_aspect_sentiment"])
             mentioned_counts.append(res["aspects_mentioned_count"])
             sentence_evals_list.append(res["sentence_evaluations"])
+            goods_counts.append(res["goods_count"])
+            bads_counts.append(res["bads_count"])
+            num_good_aspects_list.append(res["num_good_aspects"])
+            num_bad_aspects_list.append(res["num_bad_aspects"])
+            good_aspects_str_list.append(", ".join(res["good_aspects"]) if res["good_aspects"] else "None")
+            bad_aspects_str_list.append(", ".join(res["bad_aspects"]) if res["bad_aspects"] else "None")
+            net_balances.append(res["net_aspect_balance"])
+            valence_ratios.append(res["aspect_valence_ratio"])
+            patterns.append(res["good_bad_pattern"])
 
-        # Add overall sentiment metrics
+        # Add overall sentiment & polarity metrics
         out_df["overall_text_sentiment"] = overall_sentiments
         out_df["mean_aspect_sentiment"] = mean_aspect_sentiments
         out_df["aspects_mentioned_count"] = mentioned_counts
+        out_df["goods_count"] = goods_counts
+        out_df["bads_count"] = bads_counts
+        out_df["num_good_aspects"] = num_good_aspects_list
+        out_df["num_bad_aspects"] = num_bad_aspects_list
+        out_df["good_aspects"] = good_aspects_str_list
+        out_df["bad_aspects"] = bad_aspects_str_list
+        out_df["net_aspect_balance"] = net_balances
+        out_df["aspect_valence_ratio"] = valence_ratios
+        out_df["good_bad_pattern"] = patterns
         out_df["sentence_evaluations"] = sentence_evals_list
 
-        # Add individual aspect focal columns: focal_sentiment_<aspect>
+        # Archetype labeling if rating column exists
+        if "rating" in out_df.columns:
+            archetypes = []
+            for _, r in out_df.iterrows():
+                rt = float(r["rating"])
+                g = int(r["num_good_aspects"])
+                b = int(r["num_bad_aspects"])
+                if rt >= 4.0 and b >= 1:
+                    archetypes.append("Forgiving / Minor Flaw Tolerated")
+                elif rt == 3.0 and g >= 1 and b >= 1:
+                    archetypes.append("Balanced Ambivalence")
+                elif rt == 1.0 and g >= 1:
+                    archetypes.append("Catastrophic Dealbreaker")
+                elif rt <= 2.0 and b >= g and b >= 1:
+                    archetypes.append("Loss Aversion / Negativity Dominance")
+                elif rt >= 4.0 and b == 0 and g >= 1:
+                    archetypes.append("Consistently Satisfied")
+                elif rt <= 2.0 and g == 0 and b >= 1:
+                    archetypes.append("Consistently Dissatisfied")
+                else:
+                    archetypes.append("Standard / Unaligned")
+            out_df["evaluative_archetype"] = archetypes
+
+        # Add individual aspect focal columns: focal_<aspect>
         focal_df = pd.DataFrame(focal_records, index=out_df.index)
         for aspect in self.taxonomy.keys():
             col_name = f"focal_{aspect}"

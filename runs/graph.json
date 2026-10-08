@@ -1,0 +1,1433 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-10-08T12:50:34.111Z",
+  "sources": [
+    "README.md",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "AGED paper ppt.pdf",
+    "A Jey Pradeep - 22MIS1225 (1).pdf",
+    ".venv\\Lib\\site-packages\\_plotly_utils\\README.md",
+    ".venv\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\tests\\results\\frbny_nowcast\\Nowcasting\\README.md",
+    ".venv\\Lib\\site-packages\\sklearn\\datasets\\images\\README.txt",
+    ".venv\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\README.md",
+    ".venv\\Lib\\site-packages\\sklearn\\externals\\array_api_extra\\README.md",
+    ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\themes\\README.md",
+    ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+    ".venv\\Lib\\site-packages\\pyarrow\\tests\\data\\orc\\README.md",
+    ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+    ".venv\\Lib\\site-packages\\numpy\\_core\\tests\\data\\umath-validation-set-README.txt",
+    ".venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+    ".venv\\Lib\\site-packages\\altair\\jupyter\\js\\README.md",
+    ".uv_cache\\archive-v0\\ZsfaKRIj8-Zb5SGeyGCDu\\_plotly_utils\\README.md",
+    ".uv_cache\\archive-v0\\ZsfaKRIj8-Zb5SGeyGCDu\\plotly\\figure_factory\\README.md",
+    ".uv_cache\\archive-v0\\zBx8pSHvrl0U8iXQqh4ls\\pyarrow\\tests\\data\\orc\\README.md",
+    ".uv_cache\\archive-v0\\xnZw61avZ-xuB-VgeCpUT\\numpy\\_core\\tests\\data\\umath-validation-set-README.txt",
+    ".uv_cache\\archive-v0\\E4wYK0Jcf55_YtR9S8T7B\\sklearn\\externals\\array_api_compat\\README.md",
+    ".uv_cache\\archive-v0\\E4wYK0Jcf55_YtR9S8T7B\\sklearn\\externals\\array_api_extra\\README.md",
+    ".uv_cache\\archive-v0\\RKIpFcpdR4kMqvISE5Sz7\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\themes\\README.md",
+    ".uv_cache\\archive-v0\\RKIpFcpdR4kMqvISE5Sz7\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+    ".uv_cache\\archive-v0\\E4wYK0Jcf55_YtR9S8T7B\\sklearn\\datasets\\images\\README.txt",
+    ".uv_cache\\archive-v0\\NmtZt9AZ-pUs4L3ehlbfw\\nltk-3.10.3.dist-info\\licenses\\README.md",
+    ".uv_cache\\archive-v0\\hFDE1C9huiiaQITyENupF\\altair\\jupyter\\js\\README.md",
+    ".uv_cache\\archive-v0\\8k-SfA90tv4j5iPeEu2YP\\statsmodels\\tsa\\statespace\\tests\\results\\frbny_nowcast\\Nowcasting\\README.md",
+    ".venv\\Lib\\site-packages\\bleach\\_vendor\\vendor.txt",
+    ".venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+    ".venv\\Lib\\site-packages\\mdit_py_plugins\\deflist\\README.md",
+    ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+    ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+    ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md",
+    ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+    ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\path-operations.md",
+    ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\pydantic.md",
+    ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\responses.md",
+    ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md",
+    "frontend\\README.md"
+  ],
+  "entities": [
+    {
+      "id": "sec_aged_aspect_global_evaluative_dissonance_in_online_product_reviews",
+      "name": "AGED: Aspect–Global Evaluative Dissonance in Online Product Reviews",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 1,
+      "evidence": "# AGED: Aspect–Global Evaluative Dissonance in Online Product Reviews"
+    },
+    {
+      "id": "sec_a_temporal_analysis_of_consumer_experience_and_prior_review_environments",
+      "name": "A Temporal Analysis of Consumer Experience and Prior Review Environments",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 3,
+      "evidence": "### A Temporal Analysis of Consumer Experience and Prior Review Environments"
+    },
+    {
+      "id": "sec__1_theoretical_overview_what_aged_is",
+      "name": "📌 1. Theoretical Overview & What AGED Is",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 8,
+      "evidence": "## 📌 1. Theoretical Overview & What AGED Is"
+    },
+    {
+      "id": "ent_prior_review_environment_",
+      "name": "Prior Review Environment:",
+      "type": "Component/Requirement",
+      "description": "Consumers write reviews under the influence of earlier ratings and community sentiment, which form an *expectation frame*.",
+      "source": "README.md",
+      "line": 15,
+      "evidence": "- **Prior Review Environment:** Consumers write reviews under the influence of earlier ratings and community sentiment, which form an *expectation frame*."
+    },
+    {
+      "id": "ent_expectation_mismatch_dissonance_",
+      "name": "Expectation Mismatch / Dissonance:",
+      "type": "Component/Requirement",
+      "description": "When a consumer's focal aspect experience diverges from the prior environment ($|S_{focal} - S_{prior}|$), cognitive dissonance is triggered.",
+      "source": "README.md",
+      "line": 16,
+      "evidence": "- **Expectation Mismatch / Dissonance:** When a consumer's focal aspect experience diverges from the prior environment ($|S_{focal} - S_{prior}|$), cognitive di"
+    },
+    {
+      "id": "ent_aspect_global_dissonance_",
+      "name": "Aspect–Global Dissonance:",
+      "type": "Component/Requirement",
+      "description": "This expectation gap systematically moderates how consumers translate their own feature satisfaction into overall star ratings, explaining review polarization, bandwagon effects, and rating inflation/",
+      "source": "README.md",
+      "line": 17,
+      "evidence": "- **Aspect–Global Dissonance:** This expectation gap systematically moderates how consumers translate their own feature satisfaction into overall star ratings, "
+    },
+    {
+      "id": "sec__2_modular_architecture",
+      "name": "🏗️ 2. Modular Architecture",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 21,
+      "evidence": "## 🏗️ 2. Modular Architecture"
+    },
+    {
+      "id": "sec__3_performance_o_n_optimization",
+      "name": "⚡ 3. Performance & $O(N)$ Optimization",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 45,
+      "evidence": "## ⚡ 3. Performance & $O(N)$ Optimization"
+    },
+    {
+      "id": "sec__4_quickstart_guide",
+      "name": "🚀 4. Quickstart Guide",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 57,
+      "evidence": "## 🚀 4. Quickstart Guide"
+    },
+    {
+      "id": "sec_step_1_activate_virtual_environment",
+      "name": "Step 1: Activate Virtual Environment",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 59,
+      "evidence": "### Step 1: Activate Virtual Environment"
+    },
+    {
+      "id": "sec_step_2_run_headless_pipeline_cli_",
+      "name": "Step 2: Run Headless Pipeline (CLI)",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 70,
+      "evidence": "### Step 2: Run Headless Pipeline (CLI)"
+    },
+    {
+      "id": "sec_step_3_run_automated_test_suite",
+      "name": "Step 3: Run Automated Test Suite",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 76,
+      "evidence": "### Step 3: Run Automated Test Suite"
+    },
+    {
+      "id": "sec_step_4_launch_interactive_dashboard",
+      "name": "Step 4: Launch Interactive Dashboard",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 82,
+      "evidence": "### Step 4: Launch Interactive Dashboard"
+    },
+    {
+      "id": "sec__5_econometric_models_implemented",
+      "name": "📊 5. Econometric Models Implemented",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 90,
+      "evidence": "## 📊 5. Econometric Models Implemented"
+    },
+    {
+      "id": "sec__6_cost_privacy_guarantee",
+      "name": "💰 6. Cost & Privacy Guarantee",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 110,
+      "evidence": "## 💰 6. Cost & Privacy Guarantee"
+    },
+    {
+      "id": "ent_100_free_open_source_",
+      "name": "100% Free & Open Source:",
+      "type": "Component/Requirement",
+      "description": "Zero paid API keys, zero subscription dependencies.",
+      "source": "README.md",
+      "line": 111,
+      "evidence": "- **100% Free & Open Source:** Zero paid API keys, zero subscription dependencies."
+    },
+    {
+      "id": "ent_100_local_execution_",
+      "name": "100% Local Execution:",
+      "type": "Component/Requirement",
+      "description": "All data, text processing, and statistical estimations run entirely on your local machine.",
+      "source": "README.md",
+      "line": 112,
+      "evidence": "- **100% Local Execution:** All data, text processing, and statistical estimations run entirely on your local machine."
+    },
+    {
+      "id": "sec_rtk_token_saver_rule_claude_",
+      "name": "RTK Token Saver Rule (claude)",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 2,
+      "evidence": "# RTK Token Saver Rule (claude)"
+    },
+    {
+      "id": "sec_rtk_rust_token_killer_optimization_rule",
+      "name": "RTK (Rust Token Killer) Optimization Rule",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 4,
+      "evidence": "## RTK (Rust Token Killer) Optimization Rule"
+    },
+    {
+      "id": "sec_output_token_optimization",
+      "name": "Output & Token Optimization",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 15,
+      "evidence": "### Output & Token Optimization"
+    },
+    {
+      "id": "sec_headroom_context_compression_upstream_headroomlabs_ai_headroom_",
+      "name": "Headroom Context Compression (Upstream: headroomlabs-ai/headroom)",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 21,
+      "evidence": "## Headroom Context Compression (Upstream: headroomlabs-ai/headroom)"
+    },
+    {
+      "id": "sec_jevgraph_knowledge_graph_context_optimization_upstream_chenmingtang830_jevgraph_",
+      "name": "JevGraph Knowledge Graph Context Optimization (Upstream: chenmingtang830/jevgraph)",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 25,
+      "evidence": "## JevGraph Knowledge Graph Context Optimization (Upstream: chenmingtang830/jevgraph)"
+    },
+    {
+      "id": "sec_anti_slop_filter_quality_rules_upstream_miqdadbadjuber_anti_slop_",
+      "name": "Anti-Slop Filter & Quality Rules (Upstream: miqdadbadjuber/anti-slop)",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 29,
+      "evidence": "## Anti-Slop Filter & Quality Rules (Upstream: miqdadbadjuber/anti-slop)"
+    },
+    {
+      "id": "ent_filter_not_style_guide_",
+      "name": "Filter, Not Style Guide:",
+      "type": "Component/Requirement",
+      "description": "Run purpose tests before aesthetic choices (reject ungrounded neon glows, fake metrics, generic sparkle badges).",
+      "source": "CLAUDE.md",
+      "line": 31,
+      "evidence": "- **Filter, Not Style Guide:** Run purpose tests before aesthetic choices (reject ungrounded neon glows, fake metrics, generic sparkle badges)."
+    },
+    {
+      "id": "ent_liveliness_grounding_",
+      "name": "Liveliness & Grounding:",
+      "type": "Component/Requirement",
+      "description": "Rely on `DESIGN.md` or explicit brief for design soul; enforce WCAG AA human accessibility.",
+      "source": "CLAUDE.md",
+      "line": 32,
+      "evidence": "- **Liveliness & Grounding:** Rely on `DESIGN.md` or explicit brief for design soul; enforce WCAG AA human accessibility."
+    },
+    {
+      "id": "ent_dedicated_skills_",
+      "name": "Dedicated Skills:",
+      "type": "Component/Requirement",
+      "description": "Read `skills/antislop/SKILL.md` (core), `skills/antislop-ui/SKILL.md`, `skills/antislop-copywriting/SKILL.md`, `skills/antislop-human/SKILL.md`, `skills/antislop-layoutmobile/SKILL.md`, `skills/antisl",
+      "source": "CLAUDE.md",
+      "line": 33,
+      "evidence": "- **Dedicated Skills:** Read `skills/antislop/SKILL.md` (core), `skills/antislop-ui/SKILL.md`, `skills/antislop-copywriting/SKILL.md`, `skills/antislop-human/SK"
+    },
+    {
+      "id": "sec_output_generation_token_saver_rule_ponytail_mode_full_",
+      "name": "Output & Generation Token Saver Rule (Ponytail Mode: FULL)",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 36,
+      "evidence": "## Output & Generation Token Saver Rule (Ponytail Mode: FULL)"
+    },
+    {
+      "id": "ent_yagni_shortest_diff_",
+      "name": "YAGNI & Shortest Diff:",
+      "type": "Component/Requirement",
+      "description": "Only write code that must exist. Reach for standard library before custom code or new dependencies. Shortest working diff wins.",
+      "source": "CLAUDE.md",
+      "line": 37,
+      "evidence": "- **YAGNI & Shortest Diff:** Only write code that must exist. Reach for standard library before custom code or new dependencies. Shortest working diff wins."
+    },
+    {
+      "id": "ent_terse_responses_",
+      "name": "Terse Responses:",
+      "type": "Component/Requirement",
+      "description": "Code first. At most 3 short lines of explanation: what was skipped, when to add it. No essays, no unsolicited design tours, no feature walkthroughs.",
+      "source": "CLAUDE.md",
+      "line": 38,
+      "evidence": "- **Terse Responses:** Code first. At most 3 short lines of explanation: what was skipped, when to add it. No essays, no unsolicited design tours, no feature wa"
+    },
+    {
+      "id": "sec_terse_agent_directives",
+      "name": "Terse Agent Directives",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 40,
+      "evidence": "## Terse Agent Directives"
+    },
+    {
+      "id": "sec_context_optimization_compact_diffs_outlines_",
+      "name": "Context Optimization (Compact Diffs & Outlines)",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 44,
+      "evidence": "## Context Optimization (Compact Diffs & Outlines)"
+    },
+    {
+      "id": "sec_rtk_token_saver_rule_agents_",
+      "name": "RTK Token Saver Rule (agents)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 2,
+      "evidence": "# RTK Token Saver Rule (agents)"
+    },
+    {
+      "id": "sec_streamlit_theme_templates",
+      "name": "Streamlit theme templates",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\themes\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\themes\\README.md",
+      "line": 1,
+      "evidence": "# Streamlit theme templates"
+    },
+    {
+      "id": "sec_available_themes",
+      "name": "Available themes",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\themes\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\themes\\README.md",
+      "line": 6,
+      "evidence": "## Available themes"
+    },
+    {
+      "id": "sec_streamlit_dashboard_app_templates",
+      "name": "Streamlit Dashboard App Templates",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 1,
+      "evidence": "# Streamlit Dashboard App Templates"
+    },
+    {
+      "id": "sec_available_templates",
+      "name": "Available Templates",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 5,
+      "evidence": "## Available Templates"
+    },
+    {
+      "id": "sec_public_demo_templates",
+      "name": "Public Demo Templates",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 7,
+      "evidence": "### Public Demo Templates"
+    },
+    {
+      "id": "sec_analytics_dashboard_templates",
+      "name": "Analytics Dashboard Templates",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 16,
+      "evidence": "### Analytics Dashboard Templates"
+    },
+    {
+      "id": "sec_quick_start",
+      "name": "Quick Start",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 27,
+      "evidence": "## Quick Start"
+    },
+    {
+      "id": "sec_run_a_template_locally",
+      "name": "Run a Template Locally",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 29,
+      "evidence": "### Run a Template Locally"
+    },
+    {
+      "id": "sec_navigate_to_a_template_directory",
+      "name": "Navigate to a template directory",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 32,
+      "evidence": "# Navigate to a template directory"
+    },
+    {
+      "id": "sec_sync_dependencies_from_pyproject_toml",
+      "name": "Sync dependencies from pyproject.toml",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 35,
+      "evidence": "# Sync dependencies from pyproject.toml"
+    },
+    {
+      "id": "sec_run_the_app",
+      "name": "Run the app",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 38,
+      "evidence": "# Run the app"
+    },
+    {
+      "id": "sec_template_structure",
+      "name": "Template Structure",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 42,
+      "evidence": "## Template Structure"
+    },
+    {
+      "id": "sec_canonical_patterns",
+      "name": "Canonical Patterns",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 52,
+      "evidence": "## Canonical Patterns"
+    },
+    {
+      "id": "sec_page_configuration",
+      "name": "Page Configuration",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 56,
+      "evidence": "### Page Configuration"
+    },
+    {
+      "id": "sec_constants",
+      "name": "Constants",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 68,
+      "evidence": "### Constants"
+    },
+    {
+      "id": "sec_time_range_filtering",
+      "name": "Time Range Filtering",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 77,
+      "evidence": "### Time Range Filtering"
+    },
+    {
+      "id": "sec_popover_filters",
+      "name": "Popover Filters",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 109,
+      "evidence": "### Popover Filters"
+    },
+    {
+      "id": "sec_page_header_with_reset_button",
+      "name": "Page Header with Reset Button",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 119,
+      "evidence": "### Page Header with Reset Button"
+    },
+    {
+      "id": "sec_independent_and_parallel_card_updates_with_st_fragment",
+      "name": "Independent and parallel card updates with @st.fragment",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 133,
+      "evidence": "### Independent and parallel card updates with @st.fragment"
+    },
+    {
+      "id": "sec_data_loading_with_caching",
+      "name": "Data Loading with Caching",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 155,
+      "evidence": "### Data Loading with Caching"
+    },
+    {
+      "id": "sec_replace_this_with_",
+      "name": "Replace this with:",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 166,
+      "evidence": "# Replace this with:"
+    },
+    {
+      "id": "sec__api_call",
+      "name": "- API call",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 167,
+      "evidence": "# - API call"
+    },
+    {
+      "id": "sec__database_query",
+      "name": "- Database query",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 168,
+      "evidence": "# - Database query"
+    },
+    {
+      "id": "sec__data_warehouse_query_via_st_connection",
+      "name": "- Data warehouse query via st.connection",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 169,
+      "evidence": "# - Data warehouse query via st.connection"
+    },
+    {
+      "id": "sec_dependencies",
+      "name": "Dependencies",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "source": ".venv\\Lib\\site-packages\\streamlit\\.agents\\skills\\developing-with-streamlit\\assets\\templates\\apps\\README.md",
+      "line": 177,
+      "evidence": "## Dependencies"
+    },
+    {
+      "id": "sec_add_a_figure_factory_to_the_plotly_python_library_https_plot_ly_python_",
+      "name": "Add A Figure Factory to the Plotly [Python Library](https://plot.ly/python/)",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 1,
+      "evidence": "# Add A Figure Factory to the Plotly [Python Library](https://plot.ly/python/)"
+    },
+    {
+      "id": "sec_what_is_a_figure_factory_",
+      "name": "What is a Figure Factory?",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 7,
+      "evidence": "## What is a Figure Factory?"
+    },
+    {
+      "id": "sec_getting_started_",
+      "name": "Getting Started:",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 34,
+      "evidence": "## Getting Started:"
+    },
+    {
+      "id": "sec_create_a_figurefactory_file",
+      "name": "Create a figurefactory File",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 49,
+      "evidence": "## Create a figure_factory File"
+    },
+    {
+      "id": "sec_require_that_numpy_exists_for_figurefactory",
+      "name": "Require that numpy exists for figurefactory",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 68,
+      "evidence": "# Require that numpy exists for figure_factory"
+    },
+    {
+      "id": "sec__",
+      "name": "...",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 95,
+      "evidence": "# ..."
+    },
+    {
+      "id": "sec_code_goes_here",
+      "name": "code goes here",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 107,
+      "evidence": "# code goes here"
+    },
+    {
+      "id": "sec_create_figure",
+      "name": "create figure",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 122,
+      "evidence": "# create figure"
+    },
+    {
+      "id": "sec_plot_figure",
+      "name": "plot figure",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 125,
+      "evidence": "# plot figure"
+    },
+    {
+      "id": "sec_create_a_pull_request",
+      "name": "Create a Pull Request",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 142,
+      "evidence": "## Create a Pull Request"
+    },
+    {
+      "id": "sec_be_part_of_the_discussion",
+      "name": "Be Part of the Discussion",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 162,
+      "evidence": "## Be Part of the Discussion"
+    },
+    {
+      "id": "sec_table_of_current_figure_factories",
+      "name": "Table of Current Figure Factories",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "source": ".venv\\Lib\\site-packages\\plotly\\figure_factory\\README.md",
+      "line": 166,
+      "evidence": "### Table of Current Figure Factories"
+    },
+    {
+      "id": "sec_natural_language_toolkit_nltk_",
+      "name": "Natural Language Toolkit (NLTK)",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "source": ".venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "line": 1,
+      "evidence": "# Natural Language Toolkit (NLTK)"
+    },
+    {
+      "id": "sec_contributing",
+      "name": "Contributing",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "source": ".venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "line": 12,
+      "evidence": "## Contributing"
+    },
+    {
+      "id": "sec_donate",
+      "name": "Donate",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "source": ".venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "line": 20,
+      "evidence": "## Donate"
+    },
+    {
+      "id": "sec_citing",
+      "name": "Citing",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "source": ".venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "line": 26,
+      "evidence": "## Citing"
+    },
+    {
+      "id": "sec_copyright",
+      "name": "Copyright",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "source": ".venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "line": 34,
+      "evidence": "## Copyright"
+    },
+    {
+      "id": "sec_redistributing",
+      "name": "Redistributing",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "source": ".venv\\Lib\\site-packages\\nltk-3.10.3.dist-info\\licenses\\README.md",
+      "line": 43,
+      "evidence": "### Redistributing"
+    },
+    {
+      "id": "sec_jupyterchart",
+      "name": "JupyterChart",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\altair\\jupyter\\js\\README.md",
+      "source": ".venv\\Lib\\site-packages\\altair\\jupyter\\js\\README.md",
+      "line": 1,
+      "evidence": "# JupyterChart"
+    },
+    {
+      "id": "sec_markdown_it_container",
+      "name": "markdown-it-container",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "line": 1,
+      "evidence": "# markdown-it-container"
+    },
+    {
+      "id": "sec_installation",
+      "name": "Installation",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "line": 32,
+      "evidence": "## Installation"
+    },
+    {
+      "id": "sec_api",
+      "name": "API",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "line": 42,
+      "evidence": "## API"
+    },
+    {
+      "id": "sec_example",
+      "name": "Example",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "line": 59,
+      "evidence": "## Example"
+    },
+    {
+      "id": "sec_license",
+      "name": "License",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\container\\README.md",
+      "line": 93,
+      "evidence": "## License"
+    },
+    {
+      "id": "sec_markdown_it_deflist",
+      "name": "markdown-it-deflist",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\deflist\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\deflist\\README.md",
+      "line": 1,
+      "evidence": "# markdown-it-deflist"
+    },
+    {
+      "id": "sec_install",
+      "name": "Install",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\deflist\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\deflist\\README.md",
+      "line": 14,
+      "evidence": "## Install"
+    },
+    {
+      "id": "sec_use",
+      "name": "Use",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\deflist\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\deflist\\README.md",
+      "line": 23,
+      "evidence": "## Use"
+    },
+    {
+      "id": "sec_markdown_it_texmath",
+      "name": "markdown-it-texmath",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 5,
+      "evidence": "# markdown-it-texmath"
+    },
+    {
+      "id": "sec_features",
+      "name": "Features",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 9,
+      "evidence": "## Features"
+    },
+    {
+      "id": "sec_show_me",
+      "name": "Show me",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 38,
+      "evidence": "## Show me"
+    },
+    {
+      "id": "sec_use_with_node_js",
+      "name": "Use with node.js",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 44,
+      "evidence": "## Use with `node.js`"
+    },
+    {
+      "id": "sec_use_in_browser",
+      "name": "Use in Browser",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 59,
+      "evidence": "## Use in Browser"
+    },
+    {
+      "id": "sec_cdn",
+      "name": "CDN",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 83,
+      "evidence": "## CDN"
+    },
+    {
+      "id": "sec_todo",
+      "name": "ToDo",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 94,
+      "evidence": "## ToDo"
+    },
+    {
+      "id": "sec_faq",
+      "name": "FAQ",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 98,
+      "evidence": "## FAQ"
+    },
+    {
+      "id": "sec_changelog",
+      "name": "CHANGELOG",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 103,
+      "evidence": "## CHANGELOG"
+    },
+    {
+      "id": "sec__0_6_0_on_october_04_2019",
+      "name": "[0.6.0] on October 04, 2019",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 105,
+      "evidence": "###  [0.6.0] on October 04, 2019"
+    },
+    {
+      "id": "sec__0_5_5_on_february_07_2019",
+      "name": "[0.5.5] on February 07, 2019",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 108,
+      "evidence": "###  [0.5.5] on February 07, 2019"
+    },
+    {
+      "id": "sec__0_5_4_on_january_20_2019",
+      "name": "[0.5.4] on January 20, 2019",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 111,
+      "evidence": "###  [0.5.4] on January 20, 2019"
+    },
+    {
+      "id": "sec__0_5_3_on_november_11_2018",
+      "name": "[0.5.3] on November 11, 2018",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 114,
+      "evidence": "###  [0.5.3] on November 11, 2018"
+    },
+    {
+      "id": "sec__0_5_2_on_september_07_2018",
+      "name": "[0.5.2] on September 07, 2018",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 118,
+      "evidence": "###  [0.5.2] on September 07, 2018"
+    },
+    {
+      "id": "sec__0_5_0_on_august_15_2018",
+      "name": "[0.5.0] on August 15, 2018",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 121,
+      "evidence": "###  [0.5.0] on August 15, 2018"
+    },
+    {
+      "id": "sec__0_4_6_on_january_05_2018",
+      "name": "[0.4.6] on January 05, 2018",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 124,
+      "evidence": "###  [0.4.6] on January 05, 2018"
+    },
+    {
+      "id": "sec__0_4_5_on_november_06_2017",
+      "name": "[0.4.5] on November 06, 2017",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 127,
+      "evidence": "###  [0.4.5] on November 06, 2017"
+    },
+    {
+      "id": "sec__0_4_4_on_september_27_2017",
+      "name": "[0.4.4] on September 27, 2017",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "source": ".venv\\Lib\\site-packages\\mdit_py_plugins\\texmath\\README.md",
+      "line": 130,
+      "evidence": "###  [0.4.4] on September 27, 2017"
+    },
+    {
+      "id": "sec_fastapi",
+      "name": "FastAPI",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 6,
+      "evidence": "# FastAPI"
+    },
+    {
+      "id": "sec_quick_reference",
+      "name": "Quick Reference",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 10,
+      "evidence": "## Quick Reference"
+    },
+    {
+      "id": "sec_use_the_fastapi_cli",
+      "name": "Use the fastapi CLI",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 22,
+      "evidence": "## Use the `fastapi` CLI"
+    },
+    {
+      "id": "sec_use_annotated",
+      "name": "Use Annotated",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 49,
+      "evidence": "## Use `Annotated`"
+    },
+    {
+      "id": "sec_do_not_use_ellipsis_for_path_operations_or_pydantic_models",
+      "name": "Do not use Ellipsis for path operations or Pydantic models",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 93,
+      "evidence": "## Do not use Ellipsis for *path operations* or Pydantic models"
+    },
+    {
+      "id": "sec_return_type_or_response_model",
+      "name": "Return Type or Response Model",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 119,
+      "evidence": "## Return Type or Response Model"
+    },
+    {
+      "id": "sec_performance",
+      "name": "Performance",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 144,
+      "evidence": "## Performance"
+    },
+    {
+      "id": "sec_including_routers",
+      "name": "Including Routers",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 150,
+      "evidence": "## Including Routers"
+    },
+    {
+      "id": "sec_serve_frontend_apps",
+      "name": "Serve Frontend Apps",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 181,
+      "evidence": "## Serve Frontend Apps"
+    },
+    {
+      "id": "sec_opentelemetry",
+      "name": "OpenTelemetry",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 207,
+      "evidence": "## OpenTelemetry"
+    },
+    {
+      "id": "sec_dependency_injection",
+      "name": "Dependency Injection",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 217,
+      "evidence": "## Dependency Injection"
+    },
+    {
+      "id": "sec_async_vs_sync_path_operations",
+      "name": "Async vs Sync path operations",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 225,
+      "evidence": "## Async vs Sync *path operations*"
+    },
+    {
+      "id": "sec_streaming_json_lines_sse_bytes_",
+      "name": "Streaming (JSON Lines, SSE, bytes)",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 253,
+      "evidence": "## Streaming (JSON Lines, SSE, bytes)"
+    },
+    {
+      "id": "sec_tooling",
+      "name": "Tooling",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 275,
+      "evidence": "## Tooling"
+    },
+    {
+      "id": "sec_other_libraries",
+      "name": "Other Libraries",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 279,
+      "evidence": "## Other Libraries"
+    },
+    {
+      "id": "sec_do_not_use_pydantic_rootmodels",
+      "name": "Do not use Pydantic RootModels",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 287,
+      "evidence": "## Do not use Pydantic RootModels"
+    },
+    {
+      "id": "sec_use_one_http_operation_per_function",
+      "name": "Use one HTTP operation per function",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md",
+      "line": 307,
+      "evidence": "## Use one HTTP operation per function"
+    },
+    {
+      "id": "sec_dependencies_with_yield_and_scope",
+      "name": "Dependencies with yield and scope",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md",
+      "line": 12,
+      "evidence": "## Dependencies with `yield` and `scope`"
+    },
+    {
+      "id": "sec_class_dependencies",
+      "name": "Class Dependencies",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md",
+      "line": 66,
+      "evidence": "## Class Dependencies"
+    },
+    {
+      "id": "sec_simulate_a_page_of_data",
+      "name": "Simulate a page of data",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md",
+      "line": 90,
+      "evidence": "# Simulate a page of data"
+    },
+    {
+      "id": "sec_do_not_do_this",
+      "name": "DO NOT DO THIS",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md",
+      "line": 116,
+      "evidence": "# DO NOT DO THIS"
+    },
+    {
+      "id": "sec_other_tools",
+      "name": "Other Tools",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "line": 1,
+      "evidence": "# Other Tools"
+    },
+    {
+      "id": "sec_uv",
+      "name": "uv",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "line": 3,
+      "evidence": "## uv"
+    },
+    {
+      "id": "sec_ruff",
+      "name": "Ruff",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "line": 7,
+      "evidence": "## Ruff"
+    },
+    {
+      "id": "sec_ty",
+      "name": "ty",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "line": 11,
+      "evidence": "## ty"
+    },
+    {
+      "id": "sec_asyncer",
+      "name": "Asyncer",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "line": 15,
+      "evidence": "## Asyncer"
+    },
+    {
+      "id": "sec_some_blocking_i_o_operation",
+      "name": "Some blocking I/O operation",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "line": 39,
+      "evidence": "# Some blocking I/O operation"
+    },
+    {
+      "id": "sec_sqlmodel_for_sql_databases",
+      "name": "SQLModel for SQL databases",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "line": 68,
+      "evidence": "## SQLModel for SQL databases"
+    },
+    {
+      "id": "sec_httpx",
+      "name": "HTTPX",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md",
+      "line": 74,
+      "evidence": "## HTTPX"
+    },
+    {
+      "id": "sec_path_operations_and_routing",
+      "name": "Path Operations and Routing",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\path-operations.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\path-operations.md",
+      "line": 1,
+      "evidence": "# Path Operations and Routing"
+    },
+    {
+      "id": "sec_pydantic",
+      "name": "Pydantic",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\pydantic.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\pydantic.md",
+      "line": 1,
+      "evidence": "# Pydantic"
+    },
+    {
+      "id": "sec_do_not_use_ellipsis",
+      "name": "Do not use Ellipsis",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\pydantic.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\pydantic.md",
+      "line": 3,
+      "evidence": "## Do not use Ellipsis"
+    },
+    {
+      "id": "sec_responses",
+      "name": "Responses",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\responses.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\responses.md",
+      "line": 1,
+      "evidence": "# Responses"
+    },
+    {
+      "id": "sec_when_to_use_responsemodel",
+      "name": "When to use responsemodel",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\responses.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\responses.md",
+      "line": 28,
+      "evidence": "## When to use `response_model`"
+    },
+    {
+      "id": "sec_streaming",
+      "name": "Streaming",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md",
+      "line": 1,
+      "evidence": "# Streaming"
+    },
+    {
+      "id": "sec_stream_json_lines",
+      "name": "Stream JSON Lines",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md",
+      "line": 3,
+      "evidence": "## Stream JSON Lines"
+    },
+    {
+      "id": "sec_server_sent_events_sse_",
+      "name": "Server-Sent Events (SSE)",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md",
+      "line": 14,
+      "evidence": "## Server-Sent Events (SSE)"
+    },
+    {
+      "id": "sec_stream_bytes",
+      "name": "Stream bytes",
+      "type": "Section/Module",
+      "description": "Specification section from .venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md",
+      "source": ".venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md",
+      "line": 64,
+      "evidence": "## Stream bytes"
+    },
+    {
+      "id": "sec_react_vite",
+      "name": "React + Vite",
+      "type": "Section/Module",
+      "description": "Specification section from frontend\\README.md",
+      "source": "frontend\\README.md",
+      "line": 1,
+      "evidence": "# React + Vite"
+    },
+    {
+      "id": "sec_react_compiler",
+      "name": "React Compiler",
+      "type": "Section/Module",
+      "description": "Specification section from frontend\\README.md",
+      "source": "frontend\\README.md",
+      "line": 10,
+      "evidence": "## React Compiler"
+    },
+    {
+      "id": "sec_expanding_the_oxlint_configuration",
+      "name": "Expanding the Oxlint configuration",
+      "type": "Section/Module",
+      "description": "Specification section from frontend\\README.md",
+      "source": "frontend\\README.md",
+      "line": 14,
+      "evidence": "## Expanding the Oxlint configuration"
+    },
+    {
+      "id": "sec_step_4_launch_full_stack_application_fastapi_react_js_",
+      "name": "Step 4: Launch Full-Stack Application (FastAPI + React.js)",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 82,
+      "evidence": "### Step 4: Launch Full-Stack Application (FastAPI + React.js)"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sec__1_theoretical_overview_what_aged_is",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_prior_review_environment_",
+      "evidence": "- **Prior Review Environment:** Consumers write reviews under the influence of earlier ratings and community sentiment, which form an *expectation frame*.",
+      "source_file": "README.md",
+      "line": 15
+    },
+    {
+      "source": "sec__1_theoretical_overview_what_aged_is",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_expectation_mismatch_dissonance_",
+      "evidence": "- **Expectation Mismatch / Dissonance:** When a consumer's focal aspect experience diverges from the prior environment ($|S_{focal} - S_{prior}|$), cognitive di",
+      "source_file": "README.md",
+      "line": 16
+    },
+    {
+      "source": "sec__1_theoretical_overview_what_aged_is",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_aspect_global_dissonance_",
+      "evidence": "- **Aspect–Global Dissonance:** This expectation gap systematically moderates how consumers translate their own feature satisfaction into overall star ratings, ",
+      "source_file": "README.md",
+      "line": 17
+    },
+    {
+      "source": "sec__6_cost_privacy_guarantee",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_100_free_open_source_",
+      "evidence": "- **100% Free & Open Source:** Zero paid API keys, zero subscription dependencies.",
+      "source_file": "README.md",
+      "line": 111
+    },
+    {
+      "source": "sec__6_cost_privacy_guarantee",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_100_local_execution_",
+      "evidence": "- **100% Local Execution:** All data, text processing, and statistical estimations run entirely on your local machine.",
+      "source_file": "README.md",
+      "line": 112
+    },
+    {
+      "source": "sec_anti_slop_filter_quality_rules_upstream_miqdadbadjuber_anti_slop_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_filter_not_style_guide_",
+      "evidence": "- **Filter, Not Style Guide:** Run purpose tests before aesthetic choices (reject ungrounded neon glows, fake metrics, generic sparkle badges).",
+      "source_file": "CLAUDE.md",
+      "line": 31
+    },
+    {
+      "source": "sec_anti_slop_filter_quality_rules_upstream_miqdadbadjuber_anti_slop_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_liveliness_grounding_",
+      "evidence": "- **Liveliness & Grounding:** Rely on `DESIGN.md` or explicit brief for design soul; enforce WCAG AA human accessibility.",
+      "source_file": "CLAUDE.md",
+      "line": 32
+    },
+    {
+      "source": "sec_anti_slop_filter_quality_rules_upstream_miqdadbadjuber_anti_slop_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_dedicated_skills_",
+      "evidence": "- **Dedicated Skills:** Read `skills/antislop/SKILL.md` (core), `skills/antislop-ui/SKILL.md`, `skills/antislop-copywriting/SKILL.md`, `skills/antislop-human/SK",
+      "source_file": "CLAUDE.md",
+      "line": 33
+    },
+    {
+      "source": "sec_output_generation_token_saver_rule_ponytail_mode_full_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_yagni_shortest_diff_",
+      "evidence": "- **YAGNI & Shortest Diff:** Only write code that must exist. Reach for standard library before custom code or new dependencies. Shortest working diff wins.",
+      "source_file": "CLAUDE.md",
+      "line": 37
+    },
+    {
+      "source": "sec_output_generation_token_saver_rule_ponytail_mode_full_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_terse_responses_",
+      "evidence": "- **Terse Responses:** Code first. At most 3 short lines of explanation: what was skipped, when to add it. No essays, no unsolicited design tours, no feature wa",
+      "source_file": "CLAUDE.md",
+      "line": 38
+    }
+  ],
+  "stats": {
+    "total_sources": 41,
+    "total_entities": 144,
+    "total_relations": 10,
+    "token_savings_estimate": "85-95%"
+  }
+}

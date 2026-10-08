@@ -79,11 +79,27 @@ To verify all unit tests and mathematical formulas:
 .venv\Scripts\python test_aged.py
 ```
 
-### Step 4: Launch Interactive Dashboard
-To open the interactive visual analytics dashboard in your browser:
+### Step 4: Launch Full-Stack Application (FastAPI + React.js)
+
+**Option A: Single-Command Full-Stack (FastAPI serves built React SPA)**
 ```powershell
-.venv\Scripts\streamlit run app.py
+.venv\Scripts\python -m uvicorn api:app --reload --port 8000
 ```
+Open [http://localhost:8000](http://localhost:8000) in your browser.
+
+**Option B: Separate Dev Servers (FastAPI Backend + Vite React HMR)**
+Terminal 1 (Backend API):
+```powershell
+.venv\Scripts\python -m uvicorn api:app --reload --port 8000
+```
+Terminal 2 (React Vite Dev Server with proxy):
+```powershell
+cd frontend
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+*(Legacy Streamlit dashboard remains available via `.venv\Scripts\streamlit run app.py`)*
 
 ---
 

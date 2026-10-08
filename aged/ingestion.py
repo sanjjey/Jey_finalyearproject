@@ -4,6 +4,7 @@ Handles parsing, schema normalization, chronological sorting, and sentence segme
 """
 
 from typing import List, Dict, Any, Optional
+import re
 import pandas as pd
 import numpy as np
 import nltk
@@ -53,15 +54,28 @@ def normalize_schema(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def segment_sentences(text: str) -> List[str]:
-    """Splits a review text into grammatical sentences."""
+    """
+    Splits review text into grammatical sentences and contrastive clauses
+    (e.g., 'Great camera, but terrible battery' -> ['Great camera', 'terrible battery'])
+    to preserve fine-grained aspect polarity and prevent mutual sentiment cancellation.
+    """
     if not isinstance(text, str) or not text.strip():
         return []
     try:
-        sentences = nltk.sent_tokenize(text.strip())
+        raw_sentences = nltk.sent_tokenize(text.strip())
     except Exception:
-        # Fallback if punkt tokenizer encounters unhandled patterns
-        sentences = [s.strip() for s in text.replace("\n", " ").split(".") if s.strip()]
-    return [s.strip() for s in sentences if len(s.strip()) > 3]
+        raw_sentences = [s.strip() for s in text.replace("\n", " ").split(".") if s.strip()]
+
+    # Sub-split sentences on contrastive conjunctions and semicolons
+    contrast_pattern = re.compile(r";|\s*,\s*(?:but|however|though|although|while|yet)\s*", re.IGNORECASE)
+    clauses = []
+    for s in raw_sentences:
+        sub_clauses = contrast_pattern.split(s)
+        for sc in sub_clauses:
+            cleaned = sc.strip()
+            if len(cleaned) > 3:
+                clauses.append(cleaned)
+    return clauses if clauses else [text.strip()]
 
 
 def load_and_preprocess(filepath_or_df: Any) -> pd.DataFrame:

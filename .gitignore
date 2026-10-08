@@ -1,0 +1,13 @@
+/extracted_images
+A Jey Pradeep - 22MIS1225 (1).pdf
+AGED paper ppt.pdf
+AGED_paper_ppt_extracted.txt
+A_Jey_Pradeep_-_22MIS1225_(1)_extracted.txt
+.venv
+__pycache__
+*.pdf
+*.txt
+*.pyc
+*.pkl
+.uv_cache/
+data/kaggle_amazon/
